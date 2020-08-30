@@ -1,0 +1,85 @@
+body{
+    direction: rtl;
+    margin: 0;
+}
+
+/* start links */
+.links {
+    border-bottom: 1px solid white;
+}
+.links ul {
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+.links ul li {
+    display: inline-block;
+    color: #FFF;
+    padding: 10px;
+    font-size: 18px
+}
+.links ul li:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+/* end links */
+
+/* start desc */
+.desc {
+    text-align: center;
+    background-color: red;
+    padding: 80px;
+}
+.desc h1 {
+    margin: 0;
+    color: white;
+    font-size: 45px;
+}
+
+.desc p {
+    color: white;
+    font-size: 25px;
+}
+.desc button{
+    color: white;
+    background-color: black;
+    padding: 18px;
+    font-size: 25px;
+    border: 1px solid white;
+}
+
+.desc button:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+.desc button a {
+    color:#FFF;
+    text-decoration: none;
+}
+/* end desc */
+
+/* start content */
+.content .art {
+    display: inline-block;
+    width: 33%;
+    overflow: hidden;
+}
+/* end content */
+
+/* start post */
+.post-form {
+    text-align: center;
+}
+.post-form input {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 30px;
+}
+.post-form textarea {
+    width: 400px;
+    height: 400px;
+}
+/* end post */
